@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog.css" />
+
+    <title>My Blog</title>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader1">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <button class="comic-button2"><a href="se.html">Back</a></button>
+    <h1 class="title">SE BLOG</h1>
+    <input type="text" id="searchInput" placeholder="Search by Title">
+    <button id="searchButton">Search</button>
+    <form class="form">
+      <div id="newPostSection" style="margin-bottom: 20px">
+        <p class="heading">Create a New Post</p>
+        <input
+          type="text"
+          id="newPostTitle"
+          class="input"
+          placeholder="Post Title"
+        />
+        <br />
+        <textarea
+          id="newPostContent"
+          class="input"
+          placeholder="Post Content"
+        ></textarea>
+        <br />
+        <button class="btn" id="newPostButton">Post</button>
+      </div>
+    </form>
+    <!-- 
+        <p class="heading">LOGIN</p>
+        <input placeholder="Username" class="input" type="text">
+        <input placeholder="Password" class="input" type="password">
+        <button class="btn">Submit</button>
+    </form> -->
+    <div id="blogPosts"></div>
+
+    <script src="blog.js"></script>
+  </body>
+</html>

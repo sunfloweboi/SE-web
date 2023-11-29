@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" 
+      type="image/png" 
+      href="http://example.com/myicon.png">
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #dbcbc0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            /* background-color: #2ecc71; */
+            background-color: white;
+            border-radius: 20px; 
+            box-shadow: 0px 0px 10px rgba(132, 19, 149, 0.3);
+            padding: 20px;
+            width: 40%;
+            height: 35%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #212121;
+            font-size: 60px;
+        }
+
+        h2 {
+            color: #212121;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 0.5px solid #bdc3c7;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #9900c4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+ 
+        button:hover {
+            background-color: #d03ee6; 
+        }
+    </style>
+    <script src="login.js"></script>
+</head>
+<body>
+    <h1>сука блять</h1> <br>
+    <div class="login-container">
+        <h2>Login</h2>
+        <p id="alert" style="color: rgb(255, 0, 111);"></p>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password"><br>
+        <input type="checkbox" id="remember" name="remember" value="remember"> <label for="remember">Remember me</label><br><br>
+        <button id="register" type="submit">Register</button>
+        <button id="login">Login</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_uQrJ0TkZlc?si=eacZNN9gIrk1Ywox\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "title": "Python"
+    },
+    {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9He4UBLyk8Y?si=WJN39RH0DS8_Oi_U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "title": "Front End"
+    },
+    {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XKHEtdqhLK8?si=Sqx0RchtiZ8NNbCt\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "title": "Python"
+    },
+    {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AbjY-ajKgSI?si=QHhY8Bn6E6GVc_uN\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "title": "js"
+    }
+]
